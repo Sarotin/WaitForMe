@@ -7,7 +7,7 @@ Imports WaitForMe.My
 Module Module1
     ' Constants
     Private Const ProcessName As String = "League of Legends"
-    Private Const DefaultPauseTime As UShort = 1300
+    Private Const DefaultPauseTime As UShort = 1000
     Private Const DefaultResumeTime As UShort = 5
     Private Const ConfigFilePath As String = "Settings.config"
 
