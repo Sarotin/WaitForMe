@@ -166,8 +166,7 @@ Module Module1
             Else
                 ' The process is not running
                 DotCounter += 1
-                If DotCounter Mod 100 = 0 Or DotCounter = 4294967290 Then
-                    Thread.Sleep(100)
+                If DotCounter Mod 50 = 0  Then '5Seconds
                     Console.Write(".")
                 End If
             End If
